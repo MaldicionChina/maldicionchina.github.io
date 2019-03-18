@@ -3,7 +3,7 @@ title_left    : "Alexis"
 title_right   : "Rodriguez" # default: ""
 description   : "Minimalist Jekyll theme for technical writing blog."
 keywords      : "blog, web, devops,  minimalist, thinkspace"
-url           : alexlab.co # site url
+url           : https://alexlab.co # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
