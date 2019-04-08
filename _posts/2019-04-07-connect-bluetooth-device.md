@@ -6,8 +6,6 @@ description: "For a long time I've been trying to connect my bluetooth HP Roar S
 keywords: "bluetooth kubuntu kde error not ready rfkill"
 ---
 
-#
-
 For a long time I've been trying to connect my bluetooth HP Roar Speaker to my Computer without any success. Today I'll show you how I fixed this.
 
 First, check you can scan bluetooth devices with `bluetoothctl`'s command'.
