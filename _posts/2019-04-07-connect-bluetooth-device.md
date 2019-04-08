@@ -17,11 +17,11 @@ Agent registered
 Failed to start discovery: org.bluez.Error.NotReady
 ```
 
-If you get the error above, you can follow these steps :D .
+If you get the error presented above, you can follow these steps :D .
 
 * `Failed to start discovery: org.bluez.Error.NotReady` error.
 
-Be sure `bluetooth`'s service is running with:
+First, be sure `bluetooth`'s service is running executing the following commands:
 ```
 $ systemctl start bluetooth.service
 $ systemctl status bluetooth.service
@@ -48,9 +48,9 @@ abr 07 19:30:15 maldicionchina bluetoothd[11354]: Bluetooth management interface
 abr 07 19:30:15 maldicionchina bluetoothd[11354]: Endpoint registered: sender=:1.110 path=/MediaEndpoint/A2DP
 abr 07 19:30:15 maldicionchina bluetoothd[11354]: Endpoint registered: sender=:1.110 path=/MediaEndpoint/A2DP
 ```
-If you don't get any error in the last step, you're done. Just go and connect to device using you favorite tool.
+If you don't get any error in the last step, you're done. Just go and connect to device using your favorite tool.
 
-* Bluetooth softblocked rfkill problem - `Failed to set mode: Blocked through rfkill (0x12)` error.
+* If you get Bluetooth softblocked rfkill problem - `Failed to set mode: Blocked through rfkill (0x12)` error. Follow the nexts steps.
 
 ```
 $ systemctl status bluetooth.service
@@ -86,7 +86,7 @@ $ rfkill list
         Soft blocked: no
         Hard blocked: no
 2: hci0: Bluetooth
-        Soft blocked: yes
+        Soft blocked: yes <============ Mine was blocked.
         Hard blocked: no
 # Yes ? Unblocke it with the following command
 $ rfkill -r unblock bluetooth
