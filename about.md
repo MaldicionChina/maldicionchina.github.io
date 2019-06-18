@@ -8,6 +8,8 @@ Alexis Rodriguez....
 
 ### Contact
 
-Email: alexisrodgtz @ gmail.com
-Twitter: @aenriquerg
-Linkedin: aenrique
+**Email:** alexisrodgtz @ gmail.com
+
+**Twitter:** [@aenriquerg](https://twitter.com/aenriquerg)
+
+**Linkedin:** [aenrique](https://www.linkedin.com/in/aenrique/)

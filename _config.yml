@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "Alexis Rodriguez"
+  name     : "Alexis Rodríguez Gutiérrez"
 
 plugins:
   - jekyll-sitemap
